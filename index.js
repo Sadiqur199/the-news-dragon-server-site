@@ -42,7 +42,6 @@ app.get('/catagories/:id',(req,res)=>{
 }
 })
 
-
 app.listen(port,()=>{
   console.log(`Dragon Api Is Running ${port}`)
 })
